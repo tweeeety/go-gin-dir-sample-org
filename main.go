@@ -33,7 +33,7 @@ func main() {
 	router.LoadHTMLGlob("./template/*.html")
 
 	// Middleware
-	router.Use(RecordUaAndTime)
+	//router.Use(RecordUaAndTime)
 
 	ua := ""
 	router.Use(func(c *gin.Context) {
