@@ -1,1 +1,1 @@
-# go-gin-gae-sample-org
+# go-gin-dir-sample-org
